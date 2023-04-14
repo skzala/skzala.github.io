@@ -1387,7 +1387,7 @@ ai9(a){return t.G.b(a)&&J.f(J.bj(a,"flutter"),!0)},
 atW(a){return new A.WR($.ae,a)},
 ahm(){var s,r,q,p,o=self.window.navigator.languages
 o=o==null?null:J.ep(o,t.N)
-if(o==null||o.gq(o)===0)return B.mX
+if(o==null||o.gq(o)===0)return B.mW
 s=A.a([],t.ss)
 for(o=new A.cR(o,o.gq(o)),r=A.l(o).c;o.t();){q=o.d
 if(q==null)q=r.a(q)
@@ -7037,7 +7037,7 @@ ayu(a,b,c){var s,r,q
 if(b===c)return""
 if(!A.anH(B.c.ab(a,b)))A.rC(a,b,"Scheme not starting with alphabetic character")
 for(s=b,r=!1;s<c;++s){q=B.c.ab(a,s)
-if(!(q<128&&(B.mW[q>>>4]&1<<(q&15))!==0))A.rC(a,s,"Illegal scheme character")
+if(!(q<128&&(B.mV[q>>>4]&1<<(q&15))!==0))A.rC(a,s,"Illegal scheme character")
 if(65<=q&&q<=90)r=!0}a=B.c.a9(a,b,c)
 return A.ayr(r?a.toLowerCase():a)},
 ayr(a){if(a==="http")return"http"
@@ -7142,7 +7142,7 @@ return B.b.bJ(s,"/")},
 anG(a){var s,r,q=a.length
 if(q>=2&&A.anH(B.c.ab(a,0)))for(s=1;s<q;++s){r=B.c.ab(a,s)
 if(r===58)return B.c.a9(a,0,s)+"%3A"+B.c.cm(a,s+1)
-if(r>127||(B.mW[r>>>4]&1<<(r&15))===0)break}return a},
+if(r>127||(B.mV[r>>>4]&1<<(r&15))===0)break}return a},
 ayx(a,b){if(a.a4x("package")&&a.c==null)return A.aot(b,0,b.length)
 return-1},
 ayt(a,b){var s,r,q
@@ -40432,7 +40432,7 @@ r=n.r
 n=n.CW
 q=p.gX9()
 p.a.toString
-return new A.yf(o,o,o,new A.abl(),o,o,o,o,o,o,m,o,r,B.Cw,p.gXf(),n,o,B.IR,s,o,q,o,o,B.mX,!1,!1,!1,!1,p.gWV(),!1,o,o,o,!1,new A.kv(p,t.bT))},
+return new A.yf(o,o,o,new A.abl(),o,o,o,o,o,o,m,o,r,B.Cw,p.gXf(),n,o,B.IR,s,o,q,o,o,B.mW,!1,!1,!1,!1,p.gWV(),!1,o,o,o,!1,new A.kv(p,t.bT))},
 E(a){var s,r=null,q=A.uy(!1,!1,this.Sn(a),r,r,r,r,!0,r,r,new A.abm(),r,r,r)
 this.a.toString
 s=this.d
@@ -65835,7 +65835,7 @@ e=$.e3
 e.toString
 d=A.u_(B.ax,$.b7*0.5*0.77+0.5)
 c=t.p
-b=A.cI(A.a([A.cP(B.nc,B.aI,B.o,B.r),B.HD,A.cP(B.n_,B.aI,B.o,B.r)],c),B.o,B.r)
+b=A.cI(A.a([A.cP(B.nc,B.aI,B.o,B.r),B.HD,A.cP(B.mZ,B.aI,B.o,B.r)],c),B.o,B.r)
 a=$.ho
 a.toString
 a0=$.b7
@@ -65921,7 +65921,7 @@ g.toString
 f=A.u_(B.ax,$.b7*0.5*0.77+0.5)
 e=A.cP(B.nc,B.aI,B.o,B.r)
 d=t.p
-e=A.cI(A.a([e,A.bU(a1,a1,a5>710?a5*0.2:a5*0.05),A.cP(B.n_,B.aI,B.o,B.r)],d),B.o,B.r)
+e=A.cI(A.a([e,A.bU(a1,a1,a5>710?a5*0.2:a5*0.05),A.cP(B.mZ,B.aI,B.o,B.r)],d),B.o,B.r)
 c=$.ho
 c.toString
 b=$.b7
@@ -65948,13 +65948,13 @@ s=$.b7
 r=new A.eY(B.nb,t.tm)
 return A.bY(q,A.cP(A.a([B.me,B.mf,o,A.JS(B.dD,r.gcY(r).du(0,new A.TX(),t.a7).cU(0),B.wc,s*10*0.77+10,0)],t.p),B.ap,B.o,B.r),q,q,q,q,p,q)}}
 A.TX.prototype={
-$1(a){var s=a.gn(a),r=B.mY[a.gbV(a)]
+$1(a){var s=a.gn(a),r=B.mX[a.gbV(a)]
 return new A.nH(A.ahX(B.n9[a.gbV(a)],null,s,null,r),null)},
 $S:414}
 A.Dc.prototype={
 E(a){return A.cP(A.a([B.me,B.mf,A.ah7(new A.TY(),3,A.ah6(!0,B.b8,B.aK,B.dO,!1,!0,$.b7*90*0.77+90,0.8))],t.p),B.ap,B.o,B.r)}}
 A.TY.prototype={
-$3(a,b,c){var s=B.nb[c],r=B.mY[c]
+$3(a,b,c){var s=B.nb[c],r=B.mX[c]
 return new A.bC(B.ms,A.ahX(B.n9[c],null,s,null,r),null)},
 $S:78}
 A.Fb.prototype={
@@ -66170,7 +66170,7 @@ m.toString
 s=$.b7
 r=J.alt(5,t.l7)
 for(q=0;q<5;++q){p=B.ne[q]
-r[q]=new A.bC(B.mt,new A.pS(B.mV[q],p,B.n3[q],B.n2[q],n,n),n)}s=A.JS(B.dD,r,B.kS,s*10*0.77+10,0)
+r[q]=new A.bC(B.mt,new A.pS(B.n_[q],p,B.n3[q],B.n2[q],n,n),n)}s=A.JS(B.dD,r,B.kS,s*10*0.77+10,0)
 p=$.a6I
 p.toString
 o=$.b7
@@ -66184,7 +66184,7 @@ q.toString
 s=$.b7
 return A.cP(A.a([B.mc,B.mg,r,q,A.bU(A.Gx(A.bm("See More",$.ta,null,null),new A.a1i()),s*14*0.77+14,s*50*0.77+50)],t.p),B.ap,B.o,B.r)}}
 A.a1h.prototype={
-$3(a,b,c){var s=B.ne[c],r=B.mV[c],q=B.n3[c]
+$3(a,b,c){var s=B.ne[c],r=B.n_[c],q=B.n3[c]
 return new A.bC(B.mt,A.ahX(B.n2[c],s,null,r,q),null)},
 $S:78}
 A.a1i.prototype={
@@ -66205,7 +66205,7 @@ r.toString
 q=new A.eY(B.h_,t.ly)
 return A.bY(p,A.cP(A.a([B.md,B.mh,r,A.JS(B.dD,q.gcY(q).du(0,new A.a4D(),t.m1).cU(0),B.kS,n.a.b*0.05,o.a.a*0.05)],t.p),B.ap,B.o,B.r),p,p,p,p,new A.aN(s,0,s,0),p)}}
 A.a4D.prototype={
-$1(a){return new A.jW(B.h_[a.gbV(a)],B.n8[a.gbV(a)],B.mZ[a.gbV(a)],null)},
+$1(a){return new A.jW(B.h_[a.gbV(a)],B.n8[a.gbV(a)],B.mY[a.gbV(a)],null)},
 $S:419}
 A.Iw.prototype={
 E(a){var s=t.w,r=a.K(s).f
@@ -66214,7 +66214,7 @@ s=$.e3
 s.toString
 return A.cP(A.a([B.md,B.mh,s,A.ah7(new A.a4E(),5,A.ah6(!0,B.b8,B.aK,B.dO,!1,!0,r.a.b*0.4,0.65))],t.p),B.ap,B.o,B.r)}}
 A.a4E.prototype={
-$3(a,b,c){return new A.bC(B.ms,new A.jW(B.h_[c],B.n8[c],B.mZ[c],null),null)},
+$3(a,b,c){return new A.bC(B.ms,new A.jW(B.h_[c],B.n8[c],B.mY[c],null),null)},
 $S:78}
 A.jW.prototype={
 af(){return new A.OF(new A.bn(null,t.Fa),B.j)}}
@@ -69773,7 +69773,6 @@ B.bg=new A.d2(5,"windows")
 B.BG=A.a(s([B.au,B.be,B.ah,B.bf,B.b2,B.bg]),t.r6)
 B.fZ=A.a(s([60,70,30,70]),t.V)
 B.mU=A.a(s(["HOME","ABOUT","SERVICES","PROJECTS","CONTACT"]),t.s)
-B.mV=A.a(s([" ","https://skzala-studios.itch.io/entrance-exams","https://skzala-studios.itch.io/revision-app","https://skzala-studios.itch.io/alienhunter","https://instagram.com/skartist147?igshid=ZDdkNTZiNTM="]),t.s)
 B.h_=A.a(s(["assets/services/mobile-app.png","assets/services/ui.png","assets/services/game-development.png","assets/services/premiere.png","assets/services/photoshop.png"]),t.s)
 B.BW=A.a(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.V)
 B.wI=new A.oj(0,"polite")
@@ -69806,17 +69805,18 @@ B.dz=new A.cA(16,"ZWJ")
 B.kQ=new A.cA(17,"WSegSpace")
 B.wa=new A.cA(18,"Unknown")
 B.C_=A.a(s([B.kN,B.cq,B.ab,B.eR,B.eS,B.kR,B.dA,B.N3,B.dB,B.dC,B.aP,B.kO,B.kP,B.dy,B.bk,B.eQ,B.dz,B.kQ,B.wa]),A.ac("x<cA>"))
-B.mW=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
+B.mV=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.D4=new A.kK("en","US")
-B.mX=A.a(s([B.D4]),t.ss)
-B.mY=A.a(s(["Location","Phone","Email"]),t.s)
-B.mZ=A.a(s(["Android app development via Android Studio\n- Java Programming\n- MySql Database\n- PHP APIs\n and more...!","CrossPlat Apps via Flutter\n- Web Apps\n- Desktop Apps\n- Android Apps\n- Ios apps\n- and more..!","Game Development via Unity\n- C# Programming\n-3D & 2D Modeling \n- and more..!","Video Editing via Premier Pro\n- Trailers\n- Intros\n- Long Videos\n- and more..!","Photo Editing via Photoshop\n- Logo Design\n- Ui Design\n- Photo Adjustments\n- and more...!"]),t.s)
+B.mW=A.a(s([B.D4]),t.ss)
+B.mX=A.a(s(["Location","Phone","Email"]),t.s)
+B.mY=A.a(s(["Android app development via Android Studio\n- Java Programming\n- MySql Database\n- PHP APIs\n and more...!","CrossPlat Apps via Flutter\n- Web Apps\n- Desktop Apps\n- Android Apps\n- Ios apps\n- and more..!","Game Development via Unity\n- C# Programming\n-3D & 2D Modeling \n- and more..!","Video Editing via Premier Pro\n- Trailers\n- Intros\n- Long Videos\n- and more..!","Photo Editing via Photoshop\n- Logo Design\n- Ui Design\n- Photo Adjustments\n- and more...!"]),t.s)
 B.kY=new A.rv(0,"named")
 B.O_=new A.rv(1,"anonymous")
 B.C7=A.a(s([B.kY,B.O_]),A.ac("x<rv>"))
 B.wt=new A.lJ("From","Surendranagar, Gujarat, India",null)
-B.n_=A.a(s([B.l4,B.wt]),t.p)
+B.mZ=A.a(s([B.l4,B.wt]),t.p)
 B.Cf=A.a(s(["https://youtube.com/@skzalastudios8509","https://instagram.com/sk_zala?igshid=YmMyMTA2M2Y=","https://www.linkedin.com/in/satyamsinh-zala-923095272"]),t.s)
+B.n_=A.a(s(["https://skzala.github.io/","https://skzala-studios.itch.io/entrance-exams","https://skzala-studios.itch.io/revision-app","https://skzala-studios.itch.io/alienhunter","https://instagram.com/skartist147?igshid=ZDdkNTZiNTM="]),t.s)
 B.G=new A.qB(0,"upstream")
 B.y=new A.qB(1,"downstream")
 B.Ci=A.a(s([B.G,B.y]),A.ac("x<qB>"))
