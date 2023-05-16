@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "26cb9bdce1a2313014f0ed36aa84708a",
+  "assets/AssetManifest.json": "6aaa9edd1aa333d7ad5727c56ead88ac",
+"assets/assets/card/activyou.png": "8da2f3a57d5c13328b0675c6c2d49123",
 "assets/assets/card/ah.png": "3b54896411db4d2ff5016b7c6b44d2ed",
 "assets/assets/card/gm_ee.png": "dc4ab8ac31a29f741083c12cd8061332",
 "assets/assets/card/gm_entrance.png": "0dfc968cd1cf0ef5e33222d6dab27615",
@@ -26,6 +27,7 @@ const RESOURCES = {
 "assets/assets/projects/gmv.png": "c7be6d4f9d0c0c1d1bed9710cd82f935",
 "assets/assets/projects/ig.png": "0b6b3c8d2c74fc2e0be8f5d940ec1e14",
 "assets/assets/projects/java.png": "62be9fb6e1d7166e9cbeeed913096752",
+"assets/assets/projects/logo.png": "1c3f19f84f537afc8765076c8a88c13d",
 "assets/assets/projects/qrlogo.png": "84be2a6a210ed3952ceee79f4bc3eb2f",
 "assets/assets/services/flutter.png": "0b5a2f8d3f4d173805affaf9f84f6c87",
 "assets/assets/services/game-development.png": "65a79ec668bcc739231e425de1158d60",
@@ -84,9 +86,9 @@ const RESOURCES = {
 "icons/Icon-192.png": "7b3148142a362003c75b86364e1e0d03",
 "icons/Icon-512.png": "7b3148142a362003c75b86364e1e0d03",
 "icons/LOGO2%20no%20bg.png": "2a9998917a158555ba4e5336ae6304b8",
-"index.html": "41ee58132d6cca0fc1f960ea6e9b3cd3",
-"/": "41ee58132d6cca0fc1f960ea6e9b3cd3",
-"main.dart.js": "04377fc1e74b23349699e504e39bf83b",
+"index.html": "3e7206c11957657036f89b96301bab6b",
+"/": "3e7206c11957657036f89b96301bab6b",
+"main.dart.js": "b239d765d9f186c1fc26b689e687d7fb",
 "manifest.json": "3421cd00e17d6f742428a18cbf45709d",
 "version.json": "a29e8b22a08aa0274b027931eec216c4"
 };
